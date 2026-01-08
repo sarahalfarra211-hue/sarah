@@ -1,0 +1,40 @@
+html { scroll-behavior: smooth; }
+
+.hero {
+    background: linear-gradient(to right, #007bff, #28a745);
+    color: white;
+    padding: 100px 0;
+}
+
+.section { padding: 60px 0; }
+
+.stage-box {
+    border: 2px solid #0d6efd;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.engineer-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.engineer-card:hover {
+    transform: scale(1.05);
+    background: #f8f9fa;
+}
+
+
+#stageImg {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: block;
+}
+
